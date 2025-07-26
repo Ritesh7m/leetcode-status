@@ -38,7 +38,7 @@ const App = () => {
       <Navbar/>
 
       <div className="flex flex-col md:flex-row min-h-screen bg-gradient-to-br from-indigo-200 via-sky-200 to-violet-300 dark:from-indigo-900 dark:via-sky-900 dark:to-violet-900">
-        <div className="w-full md:w-1/2 flex items-center justify-center p-6">
+        <div className="w-full md:w-1/2 flex items-center justify-center p-6 mt-20">
           <UserForm onSubmit={fetchUserStatus} />
         </div>
 
