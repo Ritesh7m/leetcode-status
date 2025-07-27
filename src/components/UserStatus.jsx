@@ -14,7 +14,7 @@ export default function UserStats({ status }) {
     : "N/A";
 
   return (
-    <section className="max-w-lg mx-auto mt-10 p-6 bg-white/30 dark:bg-slate-800/40 backdrop-blur-md border border-white/30 dark:border-gray-700 rounded-3xl shadow-lg transition-shadow hover:shadow-2xl">
+    <section className="max-w-lg mx-auto mt-10 p-6 bg-white/30 dark:bg-slate-800/40 backdrop-blur-md border border-white/30 dark:border-gray-700 rounded-3xl shadow-lg transition-shadow hover:shadow-2xl mb-16">
       <h2 className="text-center text-3xl font-extrabold text-indigo-700 dark:text-indigo-300 mb-4 drop-shadow-lg">
         Status for: <span>{status.username}</span>
       </h2>
