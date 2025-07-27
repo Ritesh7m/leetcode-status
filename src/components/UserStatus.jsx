@@ -3,7 +3,7 @@ import React from "react";
 export default function UserStats({ status }) {
   if (!status) return null;
 
-  const avatar = `https://leetcode.com/${status.username}/avatar.png`; // Try this URL for real avatars
+  const avatar = `https://leetcode.com/${status.username}/avatar.png`;
 
   const joinDate = status.joinDate
     ? new Date(status.joinDate).toLocaleDateString(undefined, {
@@ -16,10 +16,10 @@ export default function UserStats({ status }) {
   return (
     <section className="max-w-lg mx-auto mt-10 p-6 bg-white/30 dark:bg-slate-800/40 backdrop-blur-md border border-white/30 dark:border-gray-700 rounded-3xl shadow-lg transition-shadow hover:shadow-2xl">
       <h2 className="text-center text-3xl font-extrabold text-indigo-700 dark:text-indigo-300 mb-4 drop-shadow-lg">
-        Status for: <span className="underline">{status.username}</span>
+        Status for: <span>{status.username}</span>
       </h2>
 
-      {/* ✅ Avatar Badge */}
+    
       <div className="flex justify-center mb-6">
         <img
           src={avatar}
