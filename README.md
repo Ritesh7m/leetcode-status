@@ -100,16 +100,14 @@ Contributions are welcome! Please follow these steps:
 4.  Push your changes to your fork.
 5.  Submit a pull request.
 
-## 📝 License
 
-This project is licensed under the [MIT License](LICENSE) - see the `LICENSE` file for details.
 
 ## 📬 Contact
 
-Ritesh - [Your Email/Social Media Link]
+Ritesh - [maurya.ritesh2005@gmail.com]
 
 ## 💖 Thanks
 
 Thank you for checking out this project! I hope it helps track your LeetCode progress. Happy coding!
 
-This is written by [readme.ai](https://readme-generator-phi.vercel.app/).
+
